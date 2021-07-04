@@ -6,16 +6,17 @@
         </title>
         <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
-
-
     </head>
     <body>
         <div class="header">
             <h3>Prime Middleware Check</h3>
         </div>
         <div class="container">
+            <div class="watermark">
+                <!-- <img class="watermark_img" src="assets/clipboard.svg"/> -->
+                <img class="img_center" alt="bankLogo" src="assets/gtblogo.png">
+            </div>
             <div>
-                <img class="center" alt="bankLogo" src="assets/gtblogo.png">
             </div>
             <div>
                 <form>
@@ -24,25 +25,32 @@
             </div>
             <div class="finalOutput">
                 <hr />
-                <ol>
-                    <li>Perso App Config Check -> <span class="result">Failed</span></li>
-                    <li>Perso App Config Check -> <span class="result">Failed</span></li>
-                    <li>Perso App Config Check -> <span class="result">Failed</span></li>
-                    <li>Perso App Config Check -> <span class="result">Failed</span></li>
-                    <li>Perso App Config Check -> <span class="result">Failed</span></li>
-                    <li>Perso App Config Check -> <span class="result">Failed</span></li>
-                    <li>Perso App Config Check -> <span class="result">Failed</span></li>
-                    <li>Perso App Config Check -> <span class="result">Failed</span></li>
-                    <li>Perso App Config Check -> <span class="result">Failed</span></li>
-                    <li>Perso App Config Check -> <span class="result">Failed</span></li>
-                    
-                </ol>
+                <div class="result_check">
+                    <p>1. HSM Config Check</p>
+                    <img class="result_icon" src="assets/check.svg" />
+                </div>
+                <hr />
+                <div class="result_check">
+                    <p>2. LMK Config Check</p>
+                    <img class="result_icon" src="assets/cancel.svg" />
+                </div>
+                <hr />
+                <div class="result_check">
+                    <p>3. Perso App Config Check</p>
+                    <img class="result_icon" src="assets/check.svg" />
+                </div>
+                <hr />
+                <div class="result_check">
+                    <p>4. CVK Check</p>
+                    <img class="result_icon" src="assets/cancel.svg" />
+                </div>
+                <hr />
             </div>
 
         </div>
         <div class="footer">
             <p>
-                Copyright &copy; AppZone 2020
+                Copyright &copy; AppZone 2021
             </p>
         </div>
       
